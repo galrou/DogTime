@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gal.dogtime.BreedsInfoActivity"
+    android:background="@drawable/pawbackground2">
+    <ImageView
+        android:id="@+id/dogImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Affenpinscher"
+                android:fontFamily="serif"
+                android:paddingTop="7dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:text="Height"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+            <TextView
+                android:id="@+id/breedheight"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:text="Weight"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+            <TextView
+                android:id="@+id/breedweight"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:text="Life Span"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/lifeSpan"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:text="Personality"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/personality"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:text="Health"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/health"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:text="Feeding"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/feeding"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:text="Children and other pets"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/childrenAndPets"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:text="Care"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_width="340dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="60dp"
+                android:paddingBottom="0dp"
+                android:textSize="25dp"
+                android:fontFamily="serif"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/care"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainmenu"
+            android:icon="@drawable/baseline_home_black_18"
+            android:title="Main Menu" />
+
+        <item
+            android:id="@+id/nav_breeds"
+            android:icon="@drawable/baseline_pets_black_18"
+            android:title="Breeds" />
+        <item
+            android:id="@+id/nav_facts"
+            android:icon="@drawable/baseline_contact_support_black_18dp"
+            android:title="Did you know...?" />
+
+        <item
+            android:id="@+id/nav_quotes"
+            android:icon="@drawable/baseline_format_quote_black_18"
+            android:title="Quotes" />
+
+
+
+
+
+
+
+    </group>
+
+    <item android:title="Games">
+        <menu>
+            <item
+                android:id="@+id/nav_puzzle"
+                android:icon="@drawable/baseline_extension_black_18"
+                android:title="Puzzle" />
+            <item
+                android:id="@+id/nav_memorygame"
+                android:icon="@drawable/baseline_apps_black_18"
+                android:title="Memory game" />
+        </menu>
+    </item>
+
+</menu>

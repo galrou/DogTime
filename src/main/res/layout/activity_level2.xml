@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundog"
+    tools:context="com.example.gal.dogtime.Level2Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:weightSum="4">
+
+
+        <ImageView
+            android:id="@+id/view0"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+        <ImageView
+            android:id="@+id/view1"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+
+        <ImageView
+            android:id="@+id/view2"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+        <ImageView
+            android:id="@+id/view3"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="0dp">
+
+
+        <ImageView
+            android:id="@+id/view4"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+        <ImageView
+            android:id="@+id/view5"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blankcard"
+            android:layout_marginRight="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/view6"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blankcard" />
+        <ImageView
+            android:id="@+id/view7"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blankcard" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <ImageView
+            android:id="@+id/view8"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+        <ImageView
+            android:id="@+id/view9"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+
+        <ImageView
+            android:id="@+id/view10"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+        <ImageView
+            android:id="@+id/view11"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/blankcard" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numOfMistakes"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+
+        <!--<Button-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_gravity="left"-->
+        <!--android:id="@+id/previous"-->
+        <!--android:text="previous"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_marginTop="0dp"/>-->
+        <!--<Button-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:id="@+id/next"-->
+        <!--android:text="next"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_marginLeft="150dp"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

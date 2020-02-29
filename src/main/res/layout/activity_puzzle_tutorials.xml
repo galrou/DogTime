@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pawbackground2"
+    tools:context="com.example.gal.dogtime.PuzzleTutorialsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TUTORIALS"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginLeft="5dp"
+        android:text="  So what is it?"
+        android:layout_marginTop="15dp"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="  A sliding puzzle is a    "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="           combination puzzle that   "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="           challenges a player to slide  "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="           pieces along certain routes to  "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="           establish certain configuration   "/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginLeft="5dp"
+        android:text="  How do I select the size?"
+        android:layout_marginTop="15dp"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="  In order to select the size "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="          you have to type the square   "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="          root of the wanted number   "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="  For instance:if you want 25   "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="          you will type 5   "/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/paw"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="  if you want 16 you will type 4   "/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

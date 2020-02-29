@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gal.dogtime.BreedsActivity">
+
+<!--the xml file of breedsctivity-->
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridView
+        android:paddingTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewDogs"
+        android:numColumns="2"
+        android:scrollbars="horizontal"
+        />
+
+</LinearLayout>

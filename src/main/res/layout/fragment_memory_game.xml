@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gal.dogtime.MemoryGameFragment"
+    android:orientation="vertical"
+    android:background="@drawable/pawbackground2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="69dp">
+
+    <ImageView
+        android:id="@+id/easy"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/easy" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/medium"
+            android:layout_weight="1"
+            android:src="@drawable/medium" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/hard"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hard" />
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="63dp"
+        android:layout_gravity="center"
+        android:text="Tutorials"
+        android:id="@+id/tutorials"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

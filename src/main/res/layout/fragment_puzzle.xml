@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gal.dogtime.PuzzleFragment"
+    android:background="@drawable/pawbackground2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        android:text=" please insert the wanted"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="     size:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+   <EditText
+       android:id="@+id/puzzleSize"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="12dp"
+       android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/paw"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="55dp"
+        android:text=" Note:it's HIGHLY suggested to   "
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="      read the tutorials first"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/tutorials"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="TUTORIALS"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        />
+<Button
+    android:id="@+id/imageBtn"
+    android:layout_width="230dp"
+    android:layout_height="50dp"
+    android:text="pick an Image"
+    android:textSize="18dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="45dp"
+    />
+
+
+</LinearLayout>
