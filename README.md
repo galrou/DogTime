@@ -5,8 +5,8 @@ detalied inforamtion and various pictures of dogs,expert's suggestions and ideas
 
 # Features
 ## A wide source of information regarding diffrent species
-    The user can search and read various information regarding diffrent sepcies(only be typing the dog's breed in the search) 
-    such a size,life expectency,personality,health,feeding and more...
+   The user can search and read various information regarding diffrent sepcies(only be typing the dog's breed in the search) such a    
+   size,life expectency,personality,health,feeding and more...
 ## Memory game
    The app privides a fun memeory game with 3 diffrent levels and with music
 ## Expert's suggestions and ideas related to dog care
