@@ -4,5 +4,5 @@ the app is user-friendly and provides  information on dogs.
 detalied inforamtion and various pictures of dogs,expert's suggestions and ideas related to dog care,quotes on dogs ,games and more...
 
 # Features
- # # the user can searc
+###### The smallest heading
 
